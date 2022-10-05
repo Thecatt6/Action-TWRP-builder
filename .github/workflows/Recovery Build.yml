@@ -113,6 +113,9 @@ jobs:
     - name: Repo Sync
       run: |
         repo sync -j$(nproc --all) --force-sync
+        cd bootable/recovery
+        git fetch https://gerrit.twrp.me/android_bootable_recovery refs/changes/98/5698/1 && git cherry-pick FETCH_HEAD
+        cd ../..
       working-directory: workspace
       
     - name: Clone device tree
