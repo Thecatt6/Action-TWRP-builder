@@ -1,3 +1,5 @@
+[![Recovery Build](https://github.com/AndroidHQ254/Action-Recovery-builder/actions/workflows/Recovery%20Build.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/AndroidHQ254/Action-Recovery-builder/actions/workflows/Recovery%20Build.yml)
+
 # Use Github Action to compile Recovery
 ```
 Support OFRP, SHRP, TWRP compilation and production
