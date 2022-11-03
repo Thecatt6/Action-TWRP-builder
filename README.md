@@ -1,9 +1,9 @@
 [![Recovery Build](https://github.com/AndroidHQ254/Action-Recovery-builder/actions/workflows/Recovery%20Build.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/AndroidHQ254/Action-Recovery-builder/actions/workflows/Recovery%20Build.yml)
 
 # Use Github Action to compile Recovery
-```
-Support OFRP, SHRP, TWRP compilation and production
-```
+
+- Support ~~OFRP~~, SHRP, TWRP compilation and production
+
 ---
 
 ## Thanks to
@@ -13,6 +13,9 @@ Support OFRP, SHRP, TWRP compilation and production
 
 ## Release Notes
 ```
+= 2022/10/28
+- OFRP manifest is changed, so not fully support OFRP now (if you can slove this, please submit a pull request!)
+
 = 2022/07/08
 - TWRP and TWRP-based 5.X ~ 12.X are ***ALL COMPILED SUCCESSFULLY***
 
