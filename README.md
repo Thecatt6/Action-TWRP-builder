@@ -2,7 +2,11 @@
 
 # Use Github Action to compile Recovery
 
-- Support ~~OFRP~~, SHRP, TWRP compilation and production
+- Support TWRP, SHRP compilation and production
+
+---
+
+## OrangeFox is [here](https://github.com/azwhikaru/Action-OFRP-Builder)
 
 ---
 
