@@ -110,10 +110,6 @@ jobs:
     - name: Repo Sync
       run: |
         repo sync -j$(nproc --all) --force-sync
-        cd bootable/recovery
-        wget https://github.com/AndroidHQ254/patch/raw/main/twrp/0001-recovery-Added-F2FS-compression-support-for-wiping.patch || exit 1
-        git apply *.patch || exit 1
-        cd ../..
       working-directory: workspace
       
     - name: Clone device tree
